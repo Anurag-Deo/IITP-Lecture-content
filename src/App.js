@@ -16,6 +16,9 @@ function App() {
       <Router>
         <ResponsiveAppBar />
         <Switch>
+          <Route exact path="/">
+            <h1 align="center">This is the landing page of the website</h1>
+          </Route>
           <Route exact path="/MA102">
             <h1 align="center">MA102</h1>
             <MA102 />
