@@ -25,27 +25,40 @@ const Carousel = () => {
       data-mdb-slide-to="2"
       aria-label="Slide 3"
     ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselExampleCaptions"
+      data-mdb-slide-to="3"
+      aria-label="Slide 4"
+    ></button>
   </div>
   <div class="carousel-inner" >
     <div class="carousel-item active">
-      <img style={{height: '100vh'}} src="https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_960_720.jpg" class="d-block w-100" alt="Wild Landscape"/>
+      <img style={{height: '90vh'}} src="https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_960_720.jpg" class="d-block w-100" alt="Wild Landscape"/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h5>Mathematics</h5>
+        <p>Get everything that you will need for your math preperation here</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img style={{height: '100vh'}} src="https://cdn.pixabay.com/photo/2016/11/18/00/32/programming-1833058_960_720.png" class="d-block w-100" alt="Camera"/>
+      <img style={{height: '90vh'}} src="https://cdn.pixabay.com/photo/2014/12/30/05/42/source-code-583537_960_720.jpg" class="d-block w-100" alt="Camera"/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5>Computer Sciences</h5>
+        <p>Get all the lecture notes and also the codes for various practice exercises</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img style={{height: '100vh'}} src="https://cdn.pixabay.com/photo/2019/12/22/15/00/laboratory-4712721_960_720.jpg" class="d-block w-100" alt="Exotic Fruits"/>
+      <img style={{height: '90vh'}} src="https://cdn.pixabay.com/photo/2019/12/22/15/00/laboratory-4712721_960_720.jpg" class="d-block w-100" alt="Exotic Fruits"/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h5>Chemistry</h5>
+        <p>Get all the lecture notes and tutorials</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img style={{height: '90vh'}} src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="Wild Landscape"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Physics</h5>
+        <p>Get all the physics notes and materials at one place</p>
       </div>
     </div>
   </div>

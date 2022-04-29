@@ -49,16 +49,16 @@ const Footer = () => {
                                     Useful Links
                                 </h6>
                                 <p>
-                                    <a href="#!" class="text-reset">Home</a>
+                                    <a href="Home" class="text-reset">Home</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-reset">MA102</a>
+                                    <a href="MA102" class="text-reset">MA102</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-reset">ME102</a>
+                                    <a href="ME102" class="text-reset">ME102</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-reset">PH103</a>
+                                    <a href="PH103" class="text-reset">PH103</a>
                                 </p>
                             </div>
 
@@ -67,16 +67,16 @@ const Footer = () => {
                                     Useful links
                                 </h6>
                                 <p>
-                                    <a href="#!" class="text-reset">CH103</a>
+                                    <a href="CH103" class="text-reset">CH103</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-reset">EE102</a>
+                                    <a href="EE102" class="text-reset">EE102</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-reset">CS102</a>
+                                    <a href="CS102" class="text-reset">CS102</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-reset">CS110</a>
+                                    <a href="CS110" class="text-reset">CS110</a>
                                 </p>
                             </div>
 
@@ -98,7 +98,7 @@ const Footer = () => {
 
                 <div class="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)'}}>
                     © 2022 Copyright:
-                    <a class="text-reset fw-bold" href="www.IITPLectures.netlify.com" target='_blank'>IITPLectures.netlify.com</a>
+                    <a class="text-reset fw-bold" href="https://iitplectures.netlify.app" target='_blank'>IITPLectures.netlify.app</a>
                 </div>
             </footer>
         </div>

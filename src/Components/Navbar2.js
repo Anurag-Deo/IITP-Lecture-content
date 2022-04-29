@@ -48,10 +48,19 @@ const Navbar2 = () => {
                             <a class="nav-link" href="#">CH103</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#">CH110</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">PH103</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#">PH110</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">CS103</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CS110</a>
                         </li>
                     </ul>
 

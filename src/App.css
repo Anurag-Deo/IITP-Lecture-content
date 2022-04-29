@@ -118,6 +118,24 @@ a:hover, a:focus {
 .card[data-color="blue"] {
     background: #b8d8d8;
 }
+.card[data-color="magenta"] {
+    background: magenta;
+}
+.card[data-color="skyblue"] {
+    background: rgb(85, 175, 202);
+}
+.card[data-color="lgorange"] {
+    background: rgb(252, 223, 118);
+}
+.card[data-color="lgorange"] .description {
+    color: #60773d;
+}
+.card[data-color="lgorange"] .category {
+    color: #92ac56;
+}
+.card[data-color="lggrey"] {
+    background: rgb(0, 255, 217);
+}
 .card[data-color="blue"] .description {
     color: #506568;
 }
