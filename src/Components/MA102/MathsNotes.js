@@ -34,7 +34,9 @@ const CardCollection = () => {
             <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
             <ImgMediaCard label="Class 9" viewUrl="https://drive.google.com/file/d/1ZPVEZF-nJA4zWobJgP7XKVUAaYAJgD1X/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?/1zpvezf-xport=download&id=1ZPVEZF-nJA4zWobJgP7XKVUAaYAJgD1X" />
             <ImgMediaCard label="Class 10" viewUrl="https://drive.google.com/file/d/1TrCBYCm8OW1Io-xIXvclrwQ8VtUXarGp/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?8ow1i://xport=download&id=1TrCBYCm8OW1Io-xIXvclrwQ8VtUXarGp" />
-            <ImgMediaCard label="Class 11" viewUrl="https://drive.google.com/file/d/184meZqznxTJkEnW5AkgjZnmyL4bJDiFq/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?export=download&id=184meZqznxTJkEnW5AkgjZnmyL4bJDiFq" />
+            <ImgMediaCard label="Class 10" viewUrl="https://drive.google.com/file/d/184meZqznxTJkEnW5AkgjZnmyL4bJDiFq/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?export=download&id=184meZqznxTJkEnW5AkgjZnmyL4bJDiFq" />
+            <ImgMediaCard label="Class 11" viewUrl="https://drive.google.com/file/d/1EE_DLfKbz0fvJTg_VbaLy-H5L5wh4bRg/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1EE_DLfKbz0fvJTg_VbaLy-H5L5wh4bRg" />
+            <ImgMediaCard label="Class 12" viewUrl="https://drive.google.com/file/d/1_ANhhDrVy1SbEKiZP5bX0NtJU0xkwsc6/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1_ANhhDrVy1SbEKiZP5bX0NtJU0xkwsc6" />
 
             </Box>
             </Zoom>

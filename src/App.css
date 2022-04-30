@@ -189,3 +189,11 @@ a:hover, a:focus {
 .card[data-color="orange"] .category {
     color: #e95e37;
 }
+
+i{
+    color: aliceblue;
+}
+
+.MuiCardActions-root{
+    justify-content: space-around;
+}

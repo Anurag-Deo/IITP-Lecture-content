@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <footer class="text-center text-lg-start bg-light text-muted">
+            <footer class="text-center text-lg-start bg-dark text-muted">
                 <section
                     class="d-flex justify-content-center  p-4 border-bottom"
                 >
@@ -96,7 +96,7 @@ const Footer = () => {
                     </div>
                 </section>
 
-                <div class="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)'}}>
+                <div class="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)', color:'aliceblue'}}>
                     © 2022 Copyright:
                     <a class="text-reset fw-bold" href="https://iitplectures.netlify.app" target='_blank'>IITPLectures.netlify.app</a>
                 </div>

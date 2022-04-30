@@ -12,6 +12,7 @@ import CH103 from './Components/CH103';
 import Navbar2 from './Components/Navbar2';
 import Footer from './Components/Footer';
 import LandingPage from './Components/Landing Page/LandingPage';
+import EE102 from './Components/EE102';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route exact path="/CH103">
             <CH103 />
+          </Route>
+          <Route exact path="/EE102">
+            <EE102 />
           </Route>
         </Switch>
         <Footer/>
