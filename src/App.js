@@ -13,6 +13,8 @@ import Navbar2 from './Components/Navbar2';
 import Footer from './Components/Footer';
 import LandingPage from './Components/Landing Page/LandingPage';
 import EE102 from './Components/EE102';
+import PH103 from './Components/PH103';
+import PH110 from './Components/PH110';
 
 function App() {
   return (
@@ -34,10 +36,20 @@ function App() {
             <ME102 />
           </Route>
           <Route exact path="/CH103">
+            <h1 className='my-2' align="center">CH103</h1>
             <CH103 />
           </Route>
           <Route exact path="/EE102">
+            <h1 className='my-2' align="center">EE102</h1>
             <EE102 />
+          </Route>
+          <Route exact path="/PH103">
+            <h1 className='my-2' align="center">PH103</h1>
+            <PH103 />
+          </Route>
+          <Route exact path="/PH110">
+            <h1 className='my-2' align="center">PH110</h1>
+            <PH110 />
           </Route>
         </Switch>
         <Footer/>

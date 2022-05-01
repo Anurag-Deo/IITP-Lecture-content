@@ -48,9 +48,9 @@ const Navbar2 = () => {
                         <li class="nav-item">
                             <a class={`nav-link ${location.pathname=='/CH103'?"active":""}`} href="/CH103">CH103</a>
                         </li>
-                        <li class="nav-item">
+                        {/* <li class="nav-item">
                             <a class={`nav-link ${location.pathname=='/CH110'?"active":""}`} href="/CH110">CH110</a>
-                        </li>
+                        </li> */}
                         <li class="nav-item">
                             <a class={`nav-link ${location.pathname=='/PH103'?"active":""}`} href="/PH103">PH103</a>
                         </li>

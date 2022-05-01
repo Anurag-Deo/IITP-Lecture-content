@@ -33,12 +33,12 @@ const CHNotes = () => {
             <ImgMediaCard label="Class 13" viewUrl="https://drive.google.com/file/d/1Xw1GlYZHH0eBtcxhLl5DCE8Blt71aOM_/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?cjp.xport=download&id=1Xw1GlYZHH0eBtcxhLl5DCE8Blt71aOM_" />
             <ImgMediaCard label="Class 14" viewUrl="https://drive.google.com/file/d/1aeAMAMaDCPVJJa5TL5y4IcEOsvt5cVO3/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?cjp.xport=download&id=1aeAMAMaDCPVJJa5TL5y4IcEOsvt5cVO3" />
             <ImgMediaCard label="Class 14" viewUrl="https://drive.google.com/file/d/11MvyQA4CdI2Z6wGK9rlRWZLp5sTD7dUv/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?cjp.xport=download&id=11MvyQA4CdI2Z6wGK9rlRWZLp5sTD7dUv" />
-            <ImgMediaCard label="Class 15" viewUrl="https://drive.google.com/file/d/1t7YwfHPDr9S26hL-orlqp7n-x2KN0kRz/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?cjp.xport=download&id=1t7YwfHPDr9S26hL-orlqp7n-x2KN0kRz" />
             </Box>
             </Zoom>
 
             <Zoom in timeout={2000}>
             <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+            <ImgMediaCard label="Class 15" viewUrl="https://drive.google.com/file/d/1t7YwfHPDr9S26hL-orlqp7n-x2KN0kRz/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?cjp.xport=download&id=1t7YwfHPDr9S26hL-orlqp7n-x2KN0kRz" />
             <ImgMediaCard label="Class 16" viewUrl="https://drive.google.com/file/d/1qmL5FjWeMXR5cJKgLNV7d77Ox3kYlmk0/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?cjp.xport=download&id=1qmL5FjWeMXR5cJKgLNV7d77Ox3kYlmk0" />
             <ImgMediaCard label="Class 17" viewUrl="https://drive.google.com/file/d/1cjlHsdKpJ68vnsiTXD3EkEpdY3lgf5Sv/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?cjp.xport=download&id=1cjlHsdKpJ68vnsiTXD3EkEpdY3lgf5Sv" />
             <ImgMediaCard label="Class 18" viewUrl="https://drive.google.com/file/d/1t6WsEBpaEMLe6frEazy5av8oOP9Vz8wa/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?cjp.xport=download&id=1t6WsEBpaEMLe6frEazy5av8oOP9Vz8wa" />

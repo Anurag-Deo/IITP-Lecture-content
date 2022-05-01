@@ -35,7 +35,7 @@ export default function ImgMediaCard(props) {
       <Card sx={{ maxWidth: 345 }}>
         <CardMedia
           component="img"
-          alt="green iguana"
+          alt="card-picture"
           height="140"
           image="https://cdn.pixabay.com/photo/2015/11/15/07/47/geometry-1044090__340.jpg"
         />
