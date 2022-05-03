@@ -34,34 +34,37 @@ const Navbar2 = () => {
                     </a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/'?"active":""}`} href="/">Home</a>
+                            <a class={`nav-link ${location.pathname==='/'?"active":""}`} href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/MA102'?"active":""}`} href="/MA102">MA102</a>
+                            <a class={`nav-link ${location.pathname==='/MA102'?"active":""}`} href="/MA102">MA102</a>
                         </li>
                         <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/ME102'?"active":""}`} href="/ME102">ME102</a>
+                            <a class={`nav-link ${location.pathname==='/ME102'?"active":""}`} href="/ME102">ME102</a>
                         </li>
                         <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/EE102'?"active":""}`} href="/EE102">EE102</a>
+                            <a class={`nav-link ${location.pathname==='/EE102'?"active":""}`} href="/EE102">EE102</a>
                         </li>
                         <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/CH103'?"active":""}`} href="/CH103">CH103</a>
+                            <a class={`nav-link ${location.pathname==='/CH103'?"active":""}`} href="/CH103">CH103</a>
                         </li>
                         {/* <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/CH110'?"active":""}`} href="/CH110">CH110</a>
+                            <a class={`nav-link ${location.pathname==='/CH110'?"active":""}`} href="/CH110">CH110</a>
                         </li> */}
                         <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/PH103'?"active":""}`} href="/PH103">PH103</a>
+                            <a class={`nav-link ${location.pathname==='/PH103'?"active":""}`} href="/PH103">PH103</a>
                         </li>
                         <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/PH110'?"active":""}`} href="/PH110">PH110</a>
+                            <a class={`nav-link ${location.pathname==='/PH110'?"active":""}`} href="/PH110">PH110</a>
                         </li>
                         <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/CS102'?"active":""}`} href="/CS102">CS102</a>
+                            <a class={`nav-link ${location.pathname==='/CS102'?"active":""}`} href="/CS102">CS102</a>
                         </li>
+                        {/* <li class="nav-item">
+                            <a class={`nav-link ${location.pathname==='/CS112'?"active":""}`} href="/CS112">CS112</a>
+                        </li> */}
                         <li class="nav-item">
-                            <a class={`nav-link ${location.pathname=='/CS110'?"active":""}`} href="/CS110">CS110</a>
+                            <a class={`nav-link ${location.pathname==='/CE102'?"active":""}`} href="/CE102">CE102</a>
                         </li>
                     </ul>
 

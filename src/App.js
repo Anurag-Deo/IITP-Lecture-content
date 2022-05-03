@@ -15,6 +15,9 @@ import LandingPage from './Components/Landing Page/LandingPage';
 import EE102 from './Components/EE102';
 import PH103 from './Components/PH103';
 import PH110 from './Components/PH110';
+import CE102 from './Components/CE102';
+import CS102 from './Components/CS102';
+import CS112 from './Components/CS112';
 
 function App() {
   return (
@@ -51,6 +54,18 @@ function App() {
             <h1 className='my-2' align="center">PH110</h1>
             <PH110 />
           </Route>
+          <Route exact path="/CE102">
+            <h1 className='my-2' align="center">CE102</h1>
+            <CE102 />
+          </Route>
+          <Route exact path="/CS102">
+            <h1 className='my-2' align="center">CS102</h1>
+            <CS102 />
+          </Route>
+          {/* <Route exact path="/CS112">
+            <h1 className='my-2' align="center">CS112</h1>
+            <CS112 />
+          </Route> */}
         </Switch>
         <Footer/>
       </Router>
