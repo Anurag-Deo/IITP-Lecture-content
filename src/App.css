@@ -197,3 +197,68 @@ i{
 .MuiCardActions-root{
     justify-content: space-around;
 }
+
+@media (min-width: 750px){
+    .subject-card{width: 17rem;}
+}
+
+.dbutton{
+    border-radius: 100px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 801px)and (max-width :1100px){
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dbutton{
+        width: 4.5rem;
+        margin-bottom: 4px;
+    }
+}
+
+.subject-card{
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px rgb(114, 126, 128);
+}
+
+.subject-card:hover{
+    transform: scale(0.96);
+    box-shadow: 6px 6px 4px rgb(114, 126, 128);
+}
+
+.subject-card:hover > .bg-image{box-shadow: 6px 6px 6px lightblue;}
+
+.bg-image{
+    border-radius: 1.5rem !important;
+    box-shadow: 8px 8px 8px lightblue;
+}
+
+.mask{
+    border-radius: 30px;
+}
+
+body{
+    /* fallback for old browsers */
+        /* Chrome 10-25, Safari 5.1-6 */
+        /* background: -webkit-linear-gradient(to bottom, rgba(252, 203, 144, 0.5), rgba(213, 126, 235, 0.5)); */
+    background-image: linear-gradient(rgba(252, 203, 144, 0.5),rgba(213, 126, 235, 0.5));
+      
+  }
+
+@media (max-width: 800px){
+    .flex-container{
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 900px){
+    .subject-card{
+        width: 70%;
+    }
+}

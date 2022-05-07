@@ -35,7 +35,12 @@ const MechNotes = () => {
             <ImgMediaCard label="Class 13" viewUrl="https://drive.google.com/file/d/1zMCWamrBGWsutLSBFhl10K2uamnu6sZE/view" downloadUrl="https://drive.google.com/uc?export=download&id=1zMCWamrBGWsutLSBFhl10K2uamnu6sZE" />
             <ImgMediaCard label="Class 14" viewUrl="https://drive.google.com/file/d/1W1BqotFpTXs9LzCxrgUDnGX2u5bWz7Bc/view" downloadUrl="https://drive.google.com/uc?export=download&id=1W1BqotFpTXs9LzCxrgUDnGX2u5bWz7Bc" />
             <ImgMediaCard label="Class 15" viewUrl="https://drive.google.com/file/d/16UWc0wPtcayfPSSedQFlXY7CcvWF-7KP/view" downloadUrl="https://drive.google.com/uc?export=download&id=16UWc0wPtcayfPSSedQFlXY7CcvWF-7KP" />
+            </Box>
+            </Zoom>
 
+            <Zoom in timeout={2000}>
+            <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+            <ImgMediaCard label="Class 16" viewUrl="https://iitpatna.webex.com/iitpatna/ldr.php?RCID=f45beccfe520469a9ad443f9190b5381" content="Password: wPdmJ2Be" />
             </Box>
             </Zoom>
         </>
