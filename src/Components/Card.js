@@ -1,12 +1,5 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+
 
 export default function ImgMediaCard(props) {
   // React.useEffect(() => {
@@ -53,19 +46,19 @@ export default function ImgMediaCard(props) {
     //     {/* <Button size="small">Learn More</Button> */}
     //   </CardActions>
     // </Card>
-    <div class="card subject-card mx-3 h-100" >
-      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-        <img src="https://cdn.pixabay.com/photo/2015/11/15/07/47/geometry-1044090__340.jpg" class="img-fluid" />
+    <div className="card subject-card mx-3 h-100" >
+      <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+        <img src="https://cdn.pixabay.com/photo/2015/11/15/07/47/geometry-1044090__340.jpg" alt="Notes" className="img-fluid" />
         <a href="#!">
-          <div class="mask" style={{backgroundColor: 'rgba(251, 251, 251, 0.15)'}}></div>
+          <div className="mask" style={{backgroundColor: 'rgba(251, 251, 251, 0.15)'}}></div>
         </a>
       </div>
-      <div class="card-body">
-        <h5 class="card-title">{props.label}</h5>
-        <p class="card-text">{props.content}</p>
+      <div className="card-body">
+        <h5 className="card-title">{props.label}</h5>
+        <p className="card-text">{props.content}</p>
         <div className="buttons">
-        <a href={props.downloadUrl} class="btn btn-primary mx-3 dbutton"><i class="fa-solid fa-cloud-arrow-down fa-xl"></i></a>
-        <a href={props.viewUrl} class="btn btn-primary mx-3 dbutton"><i class="fa-solid fa-book-open fa-xl"></i></a>
+        <a rel="noreferrer" target="_blank" href={props.downloadUrl} className="btn btn-primary mx-3 dbutton"><i className="fa-solid fa-cloud-arrow-down fa-xl"></i></a>
+        <a rel="noreferrer" target="_blank" href={props.viewUrl} className="btn btn-primary mx-3 dbutton"><i className="fa-solid fa-book-open fa-xl"></i></a>
         </div>
       </div>
     </div>
