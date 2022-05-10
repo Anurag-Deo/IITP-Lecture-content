@@ -40,8 +40,9 @@ const MechNotes = () => {
 
             <Zoom in timeout={2000}>
             <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
-            <ImgMediaCard label="Class 16" viewUrl="https://iitpatna.webex.com/iitpatna/ldr.php?RCID=f45beccfe520469a9ad443f9190b5381" content="Password: wPdmJ2Be" />
-            <ImgMediaCard label="Class 17" viewUrl="https://iitpatna.webex.com/iitpatna/ldr.php?RCID=2d01914e20249dfaae8d6d5dbbc7ae0f" content="Password: NuiKgFq8" />
+            <ImgMediaCard disabledDownload="1" label="Class 16" viewUrl="https://iitpatna.webex.com/iitpatna/ldr.php?RCID=f45beccfe520469a9ad443f9190b5381" content="Password: wPdmJ2Be" />
+            <ImgMediaCard disabledDownload="1" label="Class 17" viewUrl="https://iitpatna.webex.com/iitpatna/ldr.php?RCID=2d01914e20249dfaae8d6d5dbbc7ae0f" content="Password: NuiKgFq8" />
+            <ImgMediaCard disabledDownload="1" label="Class 18" viewUrl="https://iitpatna.webex.com/iitpatna/ldr.php?RCID=bd82bb54ef2221fa6a3ad819734b2667" content="Password: 2mGCTJPa" />
             </Box>
             </Zoom>
         </>

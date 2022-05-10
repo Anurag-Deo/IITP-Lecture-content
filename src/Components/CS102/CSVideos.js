@@ -26,6 +26,13 @@ const CSVideos = () => {
             </Box>
             </Zoom>
 
+            <Zoom in timeout={2000}>
+            <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+                <ImgMediaCard label="Class 11" viewUrl="https://iitpatna.webex.com/recordingservice/sites/iitpatna/recording/playback/3037b6a9a8e2103a977d2219b20fe8a7" content="Password :- 8zTmARPf" />
+                <ImgMediaCard label="Class 12" viewUrl="https://iitpatna.webex.com/recordingservice/sites/iitpatna/recording/playback/de1869baa9b3103aa6de3efe1755574d" content="Password :- HkHGh4Af" />
+            </Box>
+            </Zoom>
+
             
         </>
     )

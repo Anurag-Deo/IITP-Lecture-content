@@ -89,13 +89,13 @@ const Navbar2 = () => {
                             aria-labelledby="navbarDropdownMenuLink"
                         >
                             <li>
-                                <a className="dropdown-item" href="#">The notes of the classes of tuesday and wednesday has been updated</a>
+                                <a className="dropdown-item" href="#">The content till 9th May is updated on the website</a>
                             </li>
                             <li>
-                                <a className="dropdown-item" href="#">Another news</a>
+                                <a className="dropdown-item" href="#">The content till 8th May is updated on the website</a>
                             </li>
                             <li>
-                                <a className="dropdown-item" href="#">Something else here</a>
+                                <a className="dropdown-item" href="#">The content till 7th May is updated on the website</a>
                             </li>
                         </ul>
                     </div>

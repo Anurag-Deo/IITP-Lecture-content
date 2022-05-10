@@ -46,6 +46,7 @@ const CardCollection = () => {
                     <ImgMediaCard label="Class 13" viewUrl="https://drive.google.com/file/d/10yE7bpWazGLHaLUkw9Dfm__oxp4h9Nas/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=10yE7bpWazGLHaLUkw9Dfm__oxp4h9Nas" />
                     <ImgMediaCard label="Class 14" viewUrl="https://drive.google.com/file/d/1dnabicO8gdBEHg551MtevDljUI4Aettl/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1dnabicO8gdBEHg551MtevDljUI4Aettl" />
                     <ImgMediaCard label="Class 15" viewUrl="https://drive.google.com/file/d/1dnabicO8gdBEHg551MtevDljUI4Aettl/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1dnabicO8gdBEHg551MtevDljUI4Aettl" />
+                    <ImgMediaCard label="Class 16" viewUrl="https://drive.google.com/file/d/1UQknyZXmVQe3Cu2BZR-n85fuIjKob2xE/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1UQknyZXmVQe3Cu2BZR-n85fuIjKob2xE" />
                 </Box>
             </Zoom>
         </>

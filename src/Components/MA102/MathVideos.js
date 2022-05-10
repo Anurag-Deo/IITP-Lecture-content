@@ -36,6 +36,12 @@ const MathVideos = () => {
                 </Box>
             </Zoom>
 
+            <Zoom in timeout={2000}>
+                <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+                    <ImgMediaCard label="Class 16" viewUrl="https://drive.google.com/file/d/1v4q7IoKx4Zupn2tWVDTSxf8AbHK23MEJ/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1v4q7IoKx4Zupn2tWVDTSxf8AbHK23MEJ" />
+                </Box>
+            </Zoom>
+
         </>
     )
 }

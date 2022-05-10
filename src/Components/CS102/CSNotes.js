@@ -19,6 +19,7 @@ const CSNotes = () => {
             <Zoom in timeout={2000}>
             <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
             <ImgMediaCard label="Arrays" viewUrl="https://drive.google.com/file/d/1eB9Tp4mcWFE_DwCzGQxBVeAcFwbgjd_n/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?export=download&id=1eB9Tp4mcWFE_DwCzGQxBVeAcFwbgjd_n" />
+            <ImgMediaCard label="Functions" viewUrl="https://drive.google.com/file/d/1qDyDZjQ3NwDbKa21qE01PAICnP95CxR4/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1qDyDZjQ3NwDbKa21qE01PAICnP95CxR4" />
             </Box>
             </Zoom>
 
