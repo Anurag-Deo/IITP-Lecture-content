@@ -22,6 +22,7 @@ const MathTutorial = () => {
                     <ImgMediaCard label="Tutorial 4" viewUrl="https://drive.google.com/file/d/1uXW-3fEGT-gcJltC9eCRdJ-WtB_aGpzj/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1uXW-3fEGT-gcJltC9eCRdJ-WtB_aGpzj" />
                     <ImgMediaCard label="Tutorial 4 Solution" viewUrl="https://drive.google.com/file/d/1KZUB1k_c4-_rK_d-DLhXebasB0lv-RLM/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1KZUB1k_c4-_rK_d-DLhXebasB0lv-RLM" />
                     <ImgMediaCard label="Tutorial 5" viewUrl="https://drive.google.com/file/d/1wZt0Z5TNUtQ4HzCJYy-yMv6UmIeaXFxu/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1wZt0Z5TNUtQ4HzCJYy-yMv6UmIeaXFxu" />
+                    <ImgMediaCard label="Tutorial 5 Solution" viewUrl="https://drive.google.com/file/d/1T_TD1CXYphEmw5T-_ToRwCWMZQaXDLzS/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1T_TD1CXYphEmw5T-_ToRwCWMZQaXDLzS" />
                 </Box>
             </Zoom>
 

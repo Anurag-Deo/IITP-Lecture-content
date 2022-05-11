@@ -16,6 +16,12 @@ const CENotes = () => {
                 </Box>
             </Zoom>
 
+            <Zoom in timeout={2000}>
+                <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+                    <ImgMediaCard label="Module 6" viewUrl="https://drive.google.com/file/d/1nrJ4woKh2NIX4VXpVaCmLW26T44hqD2U/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1nrJ4woKh2NIX4VXpVaCmLW26T44hqD2U" />
+                </Box>
+            </Zoom>
+
 
         </>
     )

@@ -40,6 +40,7 @@ const PHNotes = () => {
                 <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
                     <ImgMediaCard disabledView="1" content="You can only download the content" label="Class 15" downloadUrl="https://0477420b-ea71-47e8-9b17-d57c35c99d2e.filesusr.com/ugd/f31d29_98efdfc094be481f9f62301ac4a3235b.pptx?dn=lecture_15_2_5_22.pptx" />
                     <ImgMediaCard disabledView="1" content="You can only download the content" label="Class 16" downloadUrl="https://0477420b-ea71-47e8-9b17-d57c35c99d2e.filesusr.com/ugd/f31d29_22e4f30e9fd1438dbc92c51b69d9bdac.pptx?dn=lecture_16_Rigid_body_dynamics_5.pptx" />
+                    <ImgMediaCard disabledView="1" content="You can only download the content" label="Class 17" downloadUrl="https://0477420b-ea71-47e8-9b17-d57c35c99d2e.filesusr.com/ugd/f31d29_d03ec768f3d64493af5bbfbea4001627.pptx?dn=lecture_17_Gyroscope%20(1).pptx" />
                 </Box>
             </Zoom>
 
