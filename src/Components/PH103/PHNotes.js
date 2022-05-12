@@ -41,6 +41,8 @@ const PHNotes = () => {
                     <ImgMediaCard disabledView="1" content="You can only download the content" label="Class 15" downloadUrl="https://0477420b-ea71-47e8-9b17-d57c35c99d2e.filesusr.com/ugd/f31d29_98efdfc094be481f9f62301ac4a3235b.pptx?dn=lecture_15_2_5_22.pptx" />
                     <ImgMediaCard disabledView="1" content="You can only download the content" label="Class 16" downloadUrl="https://0477420b-ea71-47e8-9b17-d57c35c99d2e.filesusr.com/ugd/f31d29_22e4f30e9fd1438dbc92c51b69d9bdac.pptx?dn=lecture_16_Rigid_body_dynamics_5.pptx" />
                     <ImgMediaCard disabledView="1" content="You can only download the content" label="Class 17" downloadUrl="https://0477420b-ea71-47e8-9b17-d57c35c99d2e.filesusr.com/ugd/f31d29_d03ec768f3d64493af5bbfbea4001627.pptx?dn=lecture_17_Gyroscope%20(1).pptx" />
+                    <ImgMediaCard disabledView="1" content="You can only download the content" label="Class 18" downloadUrl="https://0477420b-ea71-47e8-9b17-d57c35c99d2e.filesusr.com/ugd/f31d29_c9beb408396d469e9d0c9b85e301ce8d.pptx?dn=lecture_18_Euler_Equations.pptx" />
+                    <ImgMediaCard disabledView="1" content="You can only download the content" label="Class 19" downloadUrl="https://0477420b-ea71-47e8-9b17-d57c35c99d2e.filesusr.com/ugd/f31d29_60318695b5e84279996447323587dc51.pptx?dn=lecture_19_Fictitious_forces.pptx" />
                 </Box>
             </Zoom>
 

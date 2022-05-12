@@ -41,6 +41,8 @@ const PHVideos = () => {
                     <ImgMediaCard disabledDownload="1" content="Download the video mannualy" label="Class 15" viewUrl="https://video.wixstatic.com/video/f31d29_020c967d54d845d8ad73664d91640d1e/1080p/mp4/file.mp4" />
                     <ImgMediaCard disabledDownload="1" content="Download the video mannualy" label="Class 16" viewUrl="https://video.wixstatic.com/video/f31d29_a6e95217cc8b4806b714b25b2b1f5c90/1080p/mp4/file.mp4" />
                     <ImgMediaCard disabledDownload="1" content="Download the video mannualy" label="Class 17" viewUrl="https://video.wixstatic.com/video/f31d29_cfda732e51d04cd1879799a4f6ef4ee4/1080p/mp4/file.mp4" />
+                    <ImgMediaCard disabledDownload="1" content="Download the video mannualy" label="Class 18" viewUrl="https://www.youtube.com/watch?v=p-bejEesF-U" />
+                    <ImgMediaCard disabledDownload="1" content="Download the video mannualy" label="Class 19" viewUrl="https://youtu.be/I5LJDWbMpWw" />
                 </Box>
             </Zoom>
 
