@@ -35,7 +35,13 @@ const MechNotes = () => {
             <ImgMediaCard label="Class 13" viewUrl="https://drive.google.com/file/d/1cDWT6bDoNatQW0LObbv0eefhnrux_tsW/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?export=download&id=1cDWT6bDoNatQW0LObbv0eefhnrux_tsW" />
             <ImgMediaCard label="Class 14" viewUrl="https://drive.google.com/file/d/1ZHucJMk7KondcpfljWw6T8odusTQpfFU/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?export=download&id=1ZHucJMk7KondcpfljWw6T8odusTQpfFU" />
             <ImgMediaCard label="Class 15" viewUrl="https://drive.google.com/file/d/1RynUqDT2oKg9BPAG_LnzYAKcFR6R2gah/view?usp=sharing"  downloadUrl="https://drive.google.com/uc?export=download&id=1RynUqDT2oKg9BPAG_LnzYAKcFR6R2gah" />
+            </Box>
+            </Zoom>
 
+            <Zoom in timeout={2000}>
+            <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+            <ImgMediaCard label="Class 16-19" viewUrl="https://docs.google.com/presentation/d/1IUl-MALzv2wuJDsCdaKDHGxmfmxbxptc/edit?usp=sharing&ouid=116176361105568954572&rtpof=true&sd=true" downloadUrl="https://drive.google.com/uc?export=download&id=1IUl-MALzv2wuJDsCdaKDHGxmfmxbxptc" />
+            <ImgMediaCard label="Class 20-21" viewUrl="https://docs.google.com/presentation/d/107LxNZDFXuamZ_rvhdQ-fHIlVy-kfWl9/edit?usp=sharing&ouid=116176361105568954572&rtpof=true&sd=true" downloadUrl="https://drive.google.com/uc?export=download&id=107LxNZDFXuamZ_rvhdQ-fHIlVy-kfWl9" />
             </Box>
             </Zoom>
         </>

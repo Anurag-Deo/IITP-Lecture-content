@@ -40,6 +40,7 @@ const MathVideos = () => {
                 <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
                     <ImgMediaCard label="Class 16" viewUrl="https://drive.google.com/file/d/1v4q7IoKx4Zupn2tWVDTSxf8AbHK23MEJ/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1v4q7IoKx4Zupn2tWVDTSxf8AbHK23MEJ" />
                     <ImgMediaCard label="Class 17" viewUrl="https://drive.google.com/file/d/1LKSygbYVKGLPJkz4SPqUjLIfCufauW9R/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1LKSygbYVKGLPJkz4SPqUjLIfCufauW9R" />
+                    <ImgMediaCard label="Class 18" viewUrl="https://drive.google.com/file/d/1CuEOK9sj63J6Wufao3YoPE0fTyHl-54p/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1CuEOK9sj63J6Wufao3YoPE0fTyHl-54p" />
                 </Box>
             </Zoom>
 

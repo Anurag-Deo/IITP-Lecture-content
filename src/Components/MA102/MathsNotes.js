@@ -50,6 +50,11 @@ const CardCollection = () => {
                     <ImgMediaCard label="Class 17" viewUrl="https://drive.google.com/file/d/1KyUiEZrii5l3MRB9OC8_i_ET0L3gTNj7/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1KyUiEZrii5l3MRB9OC8_i_ET0L3gTNj7" />
                 </Box>
             </Zoom>
+            <Zoom in timeout={2000}>
+                <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+                    <ImgMediaCard label="Class 18" viewUrl="https://drive.google.com/file/d/1-rSX_hykM_9m6Q2mjU73HkUl6u6GRlH5/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1-rSX_hykM_9m6Q2mjU73HkUl6u6GRlH5" />
+                </Box>
+            </Zoom>
         </>
     )
 }

@@ -26,6 +26,12 @@ const MathTutorial = () => {
                 </Box>
             </Zoom>
 
+            <Zoom in timeout={2000}>
+                <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+                    <ImgMediaCard label="Tutorial 6" viewUrl="https://drive.google.com/file/d/1TE_hKpROYXLbeXToVi-eLCkOaHC3lt1S/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1TE_hKpROYXLbeXToVi-eLCkOaHC3lt1S" />
+                </Box>
+            </Zoom>
+
 
         </>
     )
