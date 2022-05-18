@@ -15,7 +15,11 @@ const MechNotes = () => {
 
             </Box>
             </Zoom>
-
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
         </>
     )
 }

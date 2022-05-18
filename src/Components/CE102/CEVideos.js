@@ -13,6 +13,11 @@ const CEVideos = () => {
                     <ImgMediaCard disabledDownload="1" label="Module 6" viewUrl="https://cciitpatna.sharepoint.com/:v:/r/sites/CE102EnvironmentalStudiesG1-G6/Class%20Materials/Lecture%20Recordings%20(9th%20May%20onwards)/L21%20-%2010th%20May,%202022.mp4?csf=1&web=1&e=9fxTLO" />
                 </Box>
             </Zoom>
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
            </div>
         </>
     )

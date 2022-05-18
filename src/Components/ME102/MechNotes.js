@@ -44,6 +44,11 @@ const MechNotes = () => {
             <ImgMediaCard label="Class 20-21" viewUrl="https://docs.google.com/presentation/d/107LxNZDFXuamZ_rvhdQ-fHIlVy-kfWl9/edit?usp=sharing&ouid=116176361105568954572&rtpof=true&sd=true" downloadUrl="https://drive.google.com/uc?export=download&id=107LxNZDFXuamZ_rvhdQ-fHIlVy-kfWl9" />
             </Box>
             </Zoom>
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
         </>
     )
 }

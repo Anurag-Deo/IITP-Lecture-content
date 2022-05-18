@@ -45,7 +45,11 @@ const PHVideos = () => {
                     <ImgMediaCard disabledDownload="1" content="Download the video mannualy" label="Class 19" viewUrl="https://youtu.be/I5LJDWbMpWw" />
                 </Box>
             </Zoom>
-
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
         </>
     )
 }

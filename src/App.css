@@ -262,3 +262,14 @@ body{
         width: 70%;
     }
 }
+
+.flex-container2{
+    display: flex;
+    justify-content: space-between;
+}
+.hr-text2{
+      justify-content: flex-end;
+  }
+.hr-text1{
+      justify-content: flex-start;
+  }

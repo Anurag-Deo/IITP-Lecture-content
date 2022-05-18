@@ -45,7 +45,11 @@ const PHNotes = () => {
                     <ImgMediaCard disabledView="1" content="You can only download the content" label="Class 19" downloadUrl="https://0477420b-ea71-47e8-9b17-d57c35c99d2e.filesusr.com/ugd/f31d29_60318695b5e84279996447323587dc51.pptx?dn=lecture_19_Fictitious_forces.pptx" />
                 </Box>
             </Zoom>
-
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
         </>
     )
 }

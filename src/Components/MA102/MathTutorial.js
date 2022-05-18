@@ -31,7 +31,11 @@ const MathTutorial = () => {
                     <ImgMediaCard label="Tutorial 6" viewUrl="https://drive.google.com/file/d/1TE_hKpROYXLbeXToVi-eLCkOaHC3lt1S/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1TE_hKpROYXLbeXToVi-eLCkOaHC3lt1S" />
                 </Box>
             </Zoom>
-
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
 
         </>
     )

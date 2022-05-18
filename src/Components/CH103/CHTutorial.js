@@ -14,7 +14,11 @@ const CHTutorial = () => {
             <ImgMediaCard label="Tutorial 3" viewUrl="https://drive.google.com/file/d/1U8OA1FBckbifhqpqj8UYkOrp_RNHZYoO/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1U8OA1FBckbifhqpqj8UYkOrp_RNHZYoO" />
             </Box>
             </Zoom>
-            
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
         </>
     )
 }

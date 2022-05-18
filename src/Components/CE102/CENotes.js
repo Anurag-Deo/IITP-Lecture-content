@@ -21,7 +21,11 @@ const CENotes = () => {
                     <ImgMediaCard label="Module 6" viewUrl="https://drive.google.com/file/d/1nrJ4woKh2NIX4VXpVaCmLW26T44hqD2U/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1nrJ4woKh2NIX4VXpVaCmLW26T44hqD2U" />
                 </Box>
             </Zoom>
-
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
 
         </>
     )

@@ -43,7 +43,11 @@ const MathVideos = () => {
                     <ImgMediaCard label="Class 18" viewUrl="https://drive.google.com/file/d/1CuEOK9sj63J6Wufao3YoPE0fTyHl-54p/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1CuEOK9sj63J6Wufao3YoPE0fTyHl-54p" />
                 </Box>
             </Zoom>
-
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
         </>
     )
 }

@@ -44,6 +44,11 @@ const CHNotes = () => {
             <ImgMediaCard label="Class 18" viewUrl="https://drive.google.com/file/d/1t6WsEBpaEMLe6frEazy5av8oOP9Vz8wa/view?usp=drivesdk" downloadUrl="https://drive.google.com/uc?export=download&id=1t6WsEBpaEMLe6frEazy5av8oOP9Vz8wa" />
             </Box>
             </Zoom>
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
         </>
     )
 }

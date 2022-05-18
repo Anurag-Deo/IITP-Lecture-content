@@ -53,6 +53,11 @@ const MechNotes = () => {
             <ImgMediaCard disabledDownload="1" label="Class 21" viewUrl="https://iitpatna.webex.com/iitpatna/ldr.php?RCID=9562644282e39634b8bc854e0c8e0ed3" content="Password: Ru6Bf87y" />
             </Box>
             </Zoom>
+            <div className="flex-container2">
+            <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
+            Post MidSem Examination
+            <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
+            </div>
         </>
     )
 }
