@@ -62,10 +62,10 @@ function App() {
             <h1 className='my-2' align="center">CS102</h1>
             <CS102 />
           </Route>
-          {/* <Route exact path="/CS112">
+          <Route exact path="/CS112">
             <h1 className='my-2' align="center">CS112</h1>
             <CS112 />
-          </Route> */}
+          </Route>
         </Switch>
         <Footer/>
       </Router>

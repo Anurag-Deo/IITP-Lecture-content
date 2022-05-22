@@ -266,10 +266,15 @@ body{
 .flex-container2{
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
+    word-spacing: 1px;
+    font-size: 19px;
 }
 .hr-text2{
       justify-content: flex-end;
+      opacity: 1;
   }
 .hr-text1{
       justify-content: flex-start;
+      opacity: 1;
   }

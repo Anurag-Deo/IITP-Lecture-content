@@ -60,9 +60,9 @@ const Navbar2 = () => {
                         <li className="nav-item">
                             <a className={`nav-link ${location.pathname==='/CS102'?"active":""}`} href="/CS102">CS102</a>
                         </li>
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <a className={`nav-link ${location.pathname==='/CS112'?"active":""}`} href="/CS112">CS112</a>
-                        </li> */}
+                        </li>
                         <li className="nav-item">
                             <a className={`nav-link ${location.pathname==='/CE102'?"active":""}`} href="/CE102">CE102</a>
                         </li>

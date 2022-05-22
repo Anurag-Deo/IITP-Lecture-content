@@ -8,6 +8,8 @@ import DescriptionIcon from '@mui/icons-material/Description';
 import LooksOneIcon from '@mui/icons-material/LooksOne';
 import LooksTwoIcon from '@mui/icons-material/LooksTwo';
 import LooksThreeIcon from '@mui/icons-material/Looks3';
+import LooksFourIcon from '@mui/icons-material/Looks4';
+import LooksFiveIcon from '@mui/icons-material/Looks5';
 
 
 
@@ -59,16 +61,28 @@ export default function Assignment1() {
           <Tab label={<LooksOneIcon/>} {...a11yProps(0)} />
           <Tab label={<LooksTwoIcon/>} {...a11yProps(1)} />
           <Tab label={<LooksThreeIcon/>} {...a11yProps(2)} />
+          <Tab label={<LooksFourIcon/>} {...a11yProps(3)} />
+          <Tab label={<LooksFiveIcon/>} {...a11yProps(4)} />
+          <Tab label={<LooksFiveIcon/>} {...a11yProps(5)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-          <iframe src="https://www.jdoodle.com/embed/v0/4Q4K" width="100%" height="800px"></iframe>
+          <iframe src="https://www.jdoodle.com/iembed/v0/ra6" width="100%" height="800px"></iframe>
       </TabPanel>
       <TabPanel value={value} index={1}>
-          <iframe src="https://www.jdoodle.com/iembed/v0/r9V" width="100%" height="800px"></iframe>
+          <iframe src="https://www.jdoodle.com/iembed/v0/ra7" width="100%" height="800px"></iframe>
       </TabPanel>
       <TabPanel value={value} index={2}>
-          <iframe src="https://www.jdoodle.com/iembed/v0/r9W" width="100%" height="800px"></iframe>
+          <iframe src="https://www.jdoodle.com/iembed/v0/ra8" width="100%" height="800px"></iframe>
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+          <iframe src="https://www.jdoodle.com/iembed/v0/ra9" width="100%" height="800px"></iframe>
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+          <iframe src="https://www.jdoodle.com/iembed/v0/raa" width="100%" height="800px"></iframe>
+      </TabPanel>
+      <TabPanel value={value} index={5}>
+          <iframe src="https://www.jdoodle.com/iembed/v0/rab" width="100%" height="800px"></iframe>
       </TabPanel>
       
     </Box>

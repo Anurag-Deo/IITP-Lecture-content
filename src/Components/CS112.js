@@ -5,6 +5,10 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Assignment1 from './CS112/Assignment1';
+import Assignment2 from './CS112/Assignment2';
+import Assignment3 from './CS112/Assignment3';
+import Assignment4 from './CS112/Assignment4';
+import Assignment5 from './CS112/Assignment5';
 
 
 
@@ -64,7 +68,16 @@ export default function CS112() {
         <Assignment1 />
       </TabPanel>
       <TabPanel value={value} index={1}>
-       
+        <Assignment2 />
+      </TabPanel>
+      <TabPanel value={value} index={2}>
+        <Assignment3 />
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+        <Assignment4 />
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+        <Assignment5 />
       </TabPanel>
       
     </Box>

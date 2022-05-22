@@ -58,18 +58,15 @@ export default function Assignment1() {
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
           <Tab label={<LooksOneIcon/>} {...a11yProps(0)} />
           <Tab label={<LooksTwoIcon/>} {...a11yProps(1)} />
-          <Tab label={<LooksThreeIcon/>} {...a11yProps(2)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-          <iframe src="https://www.jdoodle.com/embed/v0/4Q4K" width="100%" height="800px"></iframe>
+          <iframe src="https://www.jdoodle.com/iembed/v0/r9X" width="100%" height="800px"></iframe>
       </TabPanel>
       <TabPanel value={value} index={1}>
-          <iframe src="https://www.jdoodle.com/iembed/v0/r9V" width="100%" height="800px"></iframe>
+          <iframe src="https://www.jdoodle.com/iembed/v0/r9Y" width="100%" height="800px"></iframe>
       </TabPanel>
-      <TabPanel value={value} index={2}>
-          <iframe src="https://www.jdoodle.com/iembed/v0/r9W" width="100%" height="800px"></iframe>
-      </TabPanel>
+      
       
     </Box>
   );
