@@ -4,9 +4,6 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import DescriptionIcon from '@mui/icons-material/Description';
-import Card from './Card'
-import ImgMediaCard from './Card';
 import CENotes from './CE102/CENotes';
 import CETutorial from './CE102/CETutorial';
 import CEVideos from './CE102/CEVideos';

@@ -4,13 +4,12 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import DescriptionIcon from '@mui/icons-material/Description';
 import LooksOneIcon from '@mui/icons-material/LooksOne';
 import LooksTwoIcon from '@mui/icons-material/LooksTwo';
 import LooksThreeIcon from '@mui/icons-material/Looks3';
 import LooksFourIcon from '@mui/icons-material/Looks4';
 import LooksFiveIcon from '@mui/icons-material/Looks5';
-
+import Looks6Icon from '@mui/icons-material/Looks6';
 
 
 
@@ -63,7 +62,7 @@ export default function Assignment1() {
           <Tab label={<LooksThreeIcon/>} {...a11yProps(2)} />
           <Tab label={<LooksFourIcon/>} {...a11yProps(3)} />
           <Tab label={<LooksFiveIcon/>} {...a11yProps(4)} />
-          <Tab label={<LooksFiveIcon/>} {...a11yProps(5)} />
+          <Tab label={<Looks6Icon/>} {...a11yProps(5)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>

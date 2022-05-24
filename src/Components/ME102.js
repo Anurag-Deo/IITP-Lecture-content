@@ -4,9 +4,6 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import DescriptionIcon from '@mui/icons-material/Description';
-import Card from './Card'
-import ImgMediaCard from './Card';
 import MechNotes from './ME102/MechNotes';
 import MechVideos from './ME102/MechVideos';
 import MechTutorial from './ME102/MechTutorial';

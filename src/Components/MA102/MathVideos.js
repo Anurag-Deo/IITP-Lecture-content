@@ -48,6 +48,9 @@ const MathVideos = () => {
             Post MidSem Examination
             <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
             </div>
+            <div className="d-flex justify-content-center">
+                Due to offline classes this is the end of the videos availability
+            </div>
         </>
     )
 }

@@ -277,4 +277,5 @@ body{
 .hr-text1{
       justify-content: flex-start;
       opacity: 1;
+      margin-right: 2px;
   }

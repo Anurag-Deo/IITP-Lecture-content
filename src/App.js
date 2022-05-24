@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import ResponsiveAppBar from './Components/Navbar';
 import MA102 from './Components/MA102';
 import {
   BrowserRouter as Router,

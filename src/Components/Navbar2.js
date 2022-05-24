@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation,Link } from 'react-router-dom'
 
 const Navbar2 = () => {
     let location = useLocation();
@@ -34,37 +34,37 @@ const Navbar2 = () => {
                     </a>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/'?"active":""}`} href="/">Home</a>
+                            <Link className={`nav-link ${location.pathname==='/'?"active":""}`} to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/MA102'?"active":""}`} href="/MA102">MA102</a>
+                            <Link className={`nav-link ${location.pathname==='/MA102'?"active":""}`} to="/MA102">MA102</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/ME102'?"active":""}`} href="/ME102">ME102</a>
+                            <Link className={`nav-link ${location.pathname==='/ME102'?"active":""}`} to="/ME102">ME102</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/EE102'?"active":""}`} href="/EE102">EE102</a>
+                            <Link className={`nav-link ${location.pathname==='/EE102'?"active":""}`} to="/EE102">EE102</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/CH103'?"active":""}`} href="/CH103">CH103</a>
+                            <Link className={`nav-link ${location.pathname==='/CH103'?"active":""}`} to="/CH103">CH103</Link>
                         </li>
                         {/* <li className="nav-item">
                             <a className={`nav-link ${location.pathname==='/CH110'?"active":""}`} href="/CH110">CH110</a>
                         </li> */}
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/PH103'?"active":""}`} href="/PH103">PH103</a>
+                            <Link className={`nav-link ${location.pathname==='/PH103'?"active":""}`} to="/PH103">PH103</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/PH110'?"active":""}`} href="/PH110">PH110</a>
+                            <Link className={`nav-link ${location.pathname==='/PH110'?"active":""}`} to="/PH110">PH110</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/CS102'?"active":""}`} href="/CS102">CS102</a>
+                            <Link className={`nav-link ${location.pathname==='/CS102'?"active":""}`} to="/CS102">CS102</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/CS112'?"active":""}`} href="/CS112">CS112</a>
+                            <Link className={`nav-link ${location.pathname==='/CS112'?"active":""}`} to="/CS112">CS112</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${location.pathname==='/CE102'?"active":""}`} href="/CE102">CE102</a>
+                            <Link className={`nav-link ${location.pathname==='/CE102'?"active":""}`} to="/CE102">CE102</Link>
                         </li>
                     </ul>
 

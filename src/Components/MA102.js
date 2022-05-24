@@ -4,9 +4,6 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import DescriptionIcon from '@mui/icons-material/Description';
-import Card from './Card'
-import ImgMediaCard from './Card';
 import CardCollection from './MA102/MathsNotes';
 import MathVideos from './MA102/MathVideos';
 import MathTutorial from './MA102/MathTutorial';

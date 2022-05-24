@@ -1,7 +1,4 @@
 import React from 'react'
-import ImgMediaCard from '../Card'
-import Box from '@mui/material/Box';
-import Zoom from '@mui/material/Zoom';
 
 const CHVideos = () => {
     return (
