@@ -55,11 +55,18 @@ const CardCollection = () => {
                     <ImgMediaCard label="Class 18" viewUrl="https://drive.google.com/file/d/1-rSX_hykM_9m6Q2mjU73HkUl6u6GRlH5/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1-rSX_hykM_9m6Q2mjU73HkUl6u6GRlH5" />
                 </Box>
             </Zoom>
+            
             <div className="flex-container2">
             <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
             Post MidSem Examination
             <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
             </div>
+
+            <Zoom in timeout={2000}>
+                <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+                    <ImgMediaCard label="Class 1" viewUrl="https://drive.google.com/file/d/1L2EGK9EluIWhrsEtxeqbaL9ythGZzoqZ/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1L2EGK9EluIWhrsEtxeqbaL9ythGZzoqZ" />
+                </Box>
+            </Zoom>
         </>
     )
 }

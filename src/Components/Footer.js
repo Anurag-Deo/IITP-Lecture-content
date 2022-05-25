@@ -26,7 +26,7 @@ const Footer = () => {
                         <a href="" className="me-4 text-reset mx-5">
                             <i className="fab fa-lg fa-linkedin"></i>
                         </a>
-                        <a href="" className="me-4 text-reset mx-5">
+                        <a href="https://github.com/Anurag-Deo" target="_blank" className="me-4 text-reset mx-5">
                             <i className="fab fa-lg fa-github"></i>
                         </a>
                     </div>

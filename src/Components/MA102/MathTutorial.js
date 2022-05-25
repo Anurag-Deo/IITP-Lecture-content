@@ -29,14 +29,24 @@ const MathTutorial = () => {
             <Zoom in timeout={2000}>
                 <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
                     <ImgMediaCard label="Tutorial 6" viewUrl="https://drive.google.com/file/d/1TE_hKpROYXLbeXToVi-eLCkOaHC3lt1S/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1TE_hKpROYXLbeXToVi-eLCkOaHC3lt1S" />
+                    <ImgMediaCard label="Tutorial 6 Solution" viewUrl="https://drive.google.com/file/d/1RFQkSGhiEo1Sn_4e6dHvBRBWqrQVy6li/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1RFQkSGhiEo1Sn_4e6dHvBRBWqrQVy6li" />
                 </Box>
             </Zoom>
+
             <div className="flex-container2">
             <hr class="hr-text1" data-content="Post MSE" width="40%"></hr>
             Post MidSem Examination
             <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
             </div>
-
+            
+            <Zoom in timeout={2000}>
+                <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+                    <ImgMediaCard label="Tutorial 7" viewUrl="https://drive.google.com/file/d/1oAOfUB977_EVXZYeu2ojx926oulxYXam/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1oAOfUB977_EVXZYeu2ojx926oulxYXam" />
+                    <ImgMediaCard label="Tutorial 8" viewUrl="https://drive.google.com/file/d/1DKN3J8KM5SmtkC2NPp5xbP8A-fG_K30r/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1DKN3J8KM5SmtkC2NPp5xbP8A-fG_K30r" />
+                    <ImgMediaCard label="Tutorial 9" viewUrl="https://drive.google.com/file/d/1-P9nbnTlzHqOhKXh2caI-OCvoQNFQGyb/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1-P9nbnTlzHqOhKXh2caI-OCvoQNFQGyb" />
+                    <ImgMediaCard label="Tutorial 10" viewUrl="https://drive.google.com/file/d/10WcGAzYxHqvBf42X5G91k1rePmySZ4aH/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=10WcGAzYxHqvBf42X5G91k1rePmySZ4aH" />
+                </Box>
+            </Zoom>
         </>
     )
 }
