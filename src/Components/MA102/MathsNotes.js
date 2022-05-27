@@ -65,6 +65,8 @@ const CardCollection = () => {
             <Zoom in timeout={2000}>
                 <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
                     <ImgMediaCard label="Class 1" viewUrl="https://drive.google.com/file/d/1L2EGK9EluIWhrsEtxeqbaL9ythGZzoqZ/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1L2EGK9EluIWhrsEtxeqbaL9ythGZzoqZ" />
+                    <ImgMediaCard label="Class 2" viewUrl="https://drive.google.com/file/d/1WZwOcnd4PVNGvt8TyotB4XvhXG3ZCYEf/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1WZwOcnd4PVNGvt8TyotB4XvhXG3ZCYEf" />
+                    <ImgMediaCard label="Class 3" viewUrl="https://drive.google.com/file/d/18czuWDeDdxFmoGW6JAuMbsQaanlBlhFN/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=18czuWDeDdxFmoGW6JAuMbsQaanlBlhFN" />
                 </Box>
             </Zoom>
         </>

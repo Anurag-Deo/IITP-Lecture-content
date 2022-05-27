@@ -1,4 +1,5 @@
 import React from 'react'
+import Timetable from './Timetable.png'
 
 const Carousel = () => {
   return (
@@ -34,12 +35,20 @@ const Carousel = () => {
   </div>
   <div class="carousel-inner" >
     <div class="carousel-item active">
+      <img style={{height: '90vh'}} src={Timetable} class="d-block w-100 carousel-image" alt="Wild Landscape"/>
+      <div class="carousel-caption d-none d-md-block">
+        {/* <h5>Mathematics</h5>
+        <p>Get everything that you will need for your math preperation here</p> */}
+      </div>
+    </div>
+  {/* <div class="carousel-inner" >
+    <div class="carousel-item active">
       <img style={{height: '90vh'}} src="https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_960_720.jpg" class="d-block w-100 carousel-image" alt="Wild Landscape"/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Mathematics</h5>
         <p>Get everything that you will need for your math preperation here</p>
       </div>
-    </div>
+    </div> */}
     <div class="carousel-item">
       <img style={{height: '90vh'}} src="https://cdn.pixabay.com/photo/2014/12/30/05/42/source-code-583537_960_720.jpg" class="d-block w-100 carousel-image" alt="Camera"/>
       <div class="carousel-caption d-none d-md-block">
