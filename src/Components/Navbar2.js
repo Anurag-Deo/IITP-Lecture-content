@@ -109,7 +109,8 @@ const Navbar2 = () => {
                             aria-expanded="false"
                         >
                             <img
-                                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                src="https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-7-avatar-2754582_120519.png"
+                                // src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                                 className="rounded-circle"
                                 height="40"
                                 alt="Black and White Portrait of a Man"

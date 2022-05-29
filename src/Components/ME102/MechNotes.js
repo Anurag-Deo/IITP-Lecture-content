@@ -55,6 +55,7 @@ const MechNotes = () => {
             <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
             <ImgMediaCard label="Class 1" viewUrl="https://drive.google.com/file/d/14fya3JudRQONMdlHFbeJOqcnaQv-yrEy/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=14fya3JudRQONMdlHFbeJOqcnaQv-yrEy" />
             <ImgMediaCard label="Class 2" viewUrl="https://drive.google.com/file/d/15usbE0YwtH3XEanoE8a2kbigItVpdLiq/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=15usbE0YwtH3XEanoE8a2kbigItVpdLiq" />
+            <ImgMediaCard label="Class 3" viewUrl="https://drive.google.com/file/d/1sLWcFNbHyvJGiAkrJ_vvzOMlEiSs4-g1/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1sLWcFNbHyvJGiAkrJ_vvzOMlEiSs4-g1" />
             </Box>
             </Zoom>
         </>

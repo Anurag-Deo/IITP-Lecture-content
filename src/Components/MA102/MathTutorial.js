@@ -42,6 +42,7 @@ const MathTutorial = () => {
             <Zoom in timeout={2000}>
                 <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
                     <ImgMediaCard label="Tutorial 7" viewUrl="https://drive.google.com/file/d/1oAOfUB977_EVXZYeu2ojx926oulxYXam/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1oAOfUB977_EVXZYeu2ojx926oulxYXam" />
+                    <ImgMediaCard label="Tutorial 7 Solution" viewUrl="https://drive.google.com/file/d/1yOjXM-3pOwc95-wVJw-2UnLa6ckIC8z2/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1yOjXM-3pOwc95-wVJw-2UnLa6ckIC8z2" />
                     <ImgMediaCard label="Tutorial 8" viewUrl="https://drive.google.com/file/d/1DKN3J8KM5SmtkC2NPp5xbP8A-fG_K30r/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1DKN3J8KM5SmtkC2NPp5xbP8A-fG_K30r" />
                     <ImgMediaCard label="Tutorial 9" viewUrl="https://drive.google.com/file/d/1-P9nbnTlzHqOhKXh2caI-OCvoQNFQGyb/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1-P9nbnTlzHqOhKXh2caI-OCvoQNFQGyb" />
                     <ImgMediaCard label="Tutorial 10" viewUrl="https://drive.google.com/file/d/10WcGAzYxHqvBf42X5G91k1rePmySZ4aH/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=10WcGAzYxHqvBf42X5G91k1rePmySZ4aH" />

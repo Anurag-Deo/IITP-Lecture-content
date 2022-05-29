@@ -49,7 +49,7 @@ export default function ImgMediaCard(props) {
     <div className="card subject-card mx-3 h-100" >
       <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
         <img src="https://cdn.pixabay.com/photo/2015/11/15/07/47/geometry-1044090__340.jpg" alt="Notes" className="img-fluid" />
-        <a href="#!">
+        <a href={props.viewUrl} target="_blank">
           <div className="mask" style={{backgroundColor: 'rgba(251, 251, 251, 0.15)'}}></div>
         </a>
       </div>
