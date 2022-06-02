@@ -23,6 +23,7 @@ const MechNotes = () => {
             <Zoom in timeout={2000}>
             <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
             <ImgMediaCard label="Tutorial 1" viewUrl="https://drive.google.com/file/d/1cw0pZ3__Y2mSqeXpOCjkowbaDZIuh1Z1/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1cw0pZ3__Y2mSqeXpOCjkowbaDZIuh1Z1" />
+            <ImgMediaCard label="Tutorial 2" viewUrl="https://drive.google.com/file/d/1Tcqc75Qn-ZRfhRioWl2Q6S4-LVEwE3ni/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1Tcqc75Qn-ZRfhRioWl2Q6S4-LVEwE3ni" />
             </Box>
             </Zoom>
         </>
