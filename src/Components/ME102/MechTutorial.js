@@ -24,6 +24,9 @@ const MechNotes = () => {
             <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
             <ImgMediaCard label="Tutorial 1" viewUrl="https://drive.google.com/file/d/1cw0pZ3__Y2mSqeXpOCjkowbaDZIuh1Z1/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1cw0pZ3__Y2mSqeXpOCjkowbaDZIuh1Z1" />
             <ImgMediaCard label="Tutorial 2" viewUrl="https://drive.google.com/file/d/1Tcqc75Qn-ZRfhRioWl2Q6S4-LVEwE3ni/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1Tcqc75Qn-ZRfhRioWl2Q6S4-LVEwE3ni" />
+            <ImgMediaCard label="Tutorial 2 Solutions" viewUrl="https://drive.google.com/file/d/18TWMplE8Y6sRQwnZ3iCK4Wc0NGQfiJdA/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=18TWMplE8Y6sRQwnZ3iCK4Wc0NGQfiJdA" />
+            <ImgMediaCard label="Tutorial 3" viewUrl="https://drive.google.com/file/d/1f57dITxxVX6ygSzyNmuayy8n8JE7pMn8/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1f57dITxxVX6ygSzyNmuayy8n8JE7pMn8" />
+            <ImgMediaCard label="Tutorial 3 Solutions" viewUrl="https://drive.google.com/file/d/1GkCLG9OpniUwJm2Mwa4IsitVgpjfn2IK/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1GkCLG9OpniUwJm2Mwa4IsitVgpjfn2IK" />
             </Box>
             </Zoom>
         </>

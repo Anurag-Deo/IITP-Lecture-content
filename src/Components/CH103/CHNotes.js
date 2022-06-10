@@ -49,6 +49,12 @@ const CHNotes = () => {
             Post MidSem Examination
             <hr class="hr-text2" data-content="Post MSE" width="40%"></hr>
             </div>
+
+            <Zoom in timeout={2000}>
+            <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+            <ImgMediaCard label="All Classes" content="This pdf file contains notes of all the classes" viewUrl="https://drive.google.com/file/d/1WyKpI-VHsVbLR3xTKviuM4R_q0UDIyOP/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1WyKpI-VHsVbLR3xTKviuM4R_q0UDIyOP" />
+            </Box>
+            </Zoom>
         </>
     )
 }
