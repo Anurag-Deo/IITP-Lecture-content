@@ -68,6 +68,7 @@ const CardCollection = () => {
                     <ImgMediaCard label="Class 2" viewUrl="https://drive.google.com/file/d/1WZwOcnd4PVNGvt8TyotB4XvhXG3ZCYEf/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1WZwOcnd4PVNGvt8TyotB4XvhXG3ZCYEf" />
                     <ImgMediaCard label="Class 3" viewUrl="https://drive.google.com/file/d/18czuWDeDdxFmoGW6JAuMbsQaanlBlhFN/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=18czuWDeDdxFmoGW6JAuMbsQaanlBlhFN" />
                     <ImgMediaCard label="Class 4" viewUrl="https://drive.google.com/file/d/1_8llWrMkvi8FaHi5JoMmmDrQN0cLTwPO/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1_8llWrMkvi8FaHi5JoMmmDrQN0cLTwPO" />
+                    <ImgMediaCard label="Class 5" viewUrl="https://drive.google.com/file/d/1c5NFlQ_szr_6Hhl3Q--xP7lcQcV504qN/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1c5NFlQ_szr_6Hhl3Q--xP7lcQcV504qN" />
                 </Box>
             </Zoom>
         </>
