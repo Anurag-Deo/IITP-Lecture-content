@@ -71,6 +71,12 @@ const CardCollection = () => {
                     <ImgMediaCard label="Class 5" viewUrl="https://drive.google.com/file/d/1c5NFlQ_szr_6Hhl3Q--xP7lcQcV504qN/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1c5NFlQ_szr_6Hhl3Q--xP7lcQcV504qN" />
                 </Box>
             </Zoom>
+
+            <Zoom in timeout={2000}>
+                <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+                    <ImgMediaCard label="Class 6" viewUrl="https://drive.google.com/file/d/1c_ewAd_NHh9Gy4OiS5MsTplRNHcNtE3k/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1c_ewAd_NHh9Gy4OiS5MsTplRNHcNtE3k" />
+                </Box>
+            </Zoom>
         </>
     )
 }
