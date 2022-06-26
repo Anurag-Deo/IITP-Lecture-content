@@ -29,6 +29,16 @@ const MechNotes = () => {
             <ImgMediaCard label="Tutorial 3 Solutions" viewUrl="https://drive.google.com/file/d/1GkCLG9OpniUwJm2Mwa4IsitVgpjfn2IK/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1GkCLG9OpniUwJm2Mwa4IsitVgpjfn2IK" />
             </Box>
             </Zoom>
+
+            <Zoom in timeout={2000}>
+            <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+            <ImgMediaCard label="Problem Set 1" viewUrl="https://drive.google.com/file/d/1WEQEKkaKEI9OZJ7ipGt3Yp14E9uipwAM/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1WEQEKkaKEI9OZJ7ipGt3Yp14E9uipwAM" />
+            <ImgMediaCard label="Problem Set 2" viewUrl="https://drive.google.com/file/d/1WhcviHtkijQvxfHkQMhKqkKbLD0imVVa/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1WhcviHtkijQvxfHkQMhKqkKbLD0imVVa" />
+            <ImgMediaCard label="Problem Set 2 Solution" viewUrl="https://drive.google.com/file/d/1GuRvegsSOho3zJsrXiBUz38aEuozVaS7/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1GuRvegsSOho3zJsrXiBUz38aEuozVaS7" />
+            <ImgMediaCard label="Problem Set 3" viewUrl="https://drive.google.com/file/d/1TT3VncHo76vo8EbpKZpxWCVmciqB6xTj/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1TT3VncHo76vo8EbpKZpxWCVmciqB6xTj" />
+            <ImgMediaCard label="Problem Set 3 Solution" viewUrl="https://drive.google.com/file/d/1FbxyMVTGEJIHhE_DWTjXNaArF51T_3cU/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1FbxyMVTGEJIHhE_DWTjXNaArF51T_3cU" />
+            </Box>
+            </Zoom>
         </>
     )
 }

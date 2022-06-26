@@ -67,6 +67,13 @@ const MechNotes = () => {
             <ImgMediaCard label="Class 7" viewUrl="https://drive.google.com/file/d/178Eo5eXfbp107I2dg_eLpwidB3EUDqFD/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=178Eo5eXfbp107I2dg_eLpwidB3EUDqFD" />
             <ImgMediaCard label="Class 8" viewUrl="https://drive.google.com/file/d/129sMByaheeYF7WIMV08-8K8AvgB5nQlL/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=129sMByaheeYF7WIMV08-8K8AvgB5nQlL" />
             <ImgMediaCard label="Class 9" viewUrl="https://drive.google.com/file/d/18Ltz38ucErXMke9i325KFDrJ2xjwcKhL/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=18Ltz38ucErXMke9i325KFDrJ2xjwcKhL" />
+            <ImgMediaCard label="Class 10" content="Stress and stress transformations taught by Murshid sir" viewUrl="https://drive.google.com/file/d/1nt0IX-jI5X7XKTdfxWppKZH5pHYR90rD/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1nt0IX-jI5X7XKTdfxWppKZH5pHYR90rD" />
+            </Box>
+            </Zoom>
+
+            <Zoom in timeout={2000}>
+            <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+            <ImgMediaCard label="Class 11" content="Tortion taught by Murshid sir" viewUrl="https://drive.google.com/file/d/1Y2mXQm0qITAxk1XJ-SADVjmCsP_BnB0p/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1Y2mXQm0qITAxk1XJ-SADVjmCsP_BnB0p" />
             </Box>
             </Zoom>
         </>
