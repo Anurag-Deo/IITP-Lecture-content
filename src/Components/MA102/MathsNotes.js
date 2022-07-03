@@ -75,6 +75,7 @@ const CardCollection = () => {
             <Zoom in timeout={2000}>
                 <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
                     <ImgMediaCard label="Class 6" viewUrl="https://drive.google.com/file/d/1c_ewAd_NHh9Gy4OiS5MsTplRNHcNtE3k/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1c_ewAd_NHh9Gy4OiS5MsTplRNHcNtE3k" />
+                    <ImgMediaCard label="Class 7" viewUrl="https://drive.google.com/file/d/1cWqcwptyfpXW4dy32JM4x88Scc-3hGOY/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1cWqcwptyfpXW4dy32JM4x88Scc-3hGOY" />
                 </Box>
             </Zoom>
         </>
