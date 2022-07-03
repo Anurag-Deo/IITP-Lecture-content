@@ -39,6 +39,14 @@ const MechNotes = () => {
             <ImgMediaCard label="Problem Set 3 Solution" viewUrl="https://drive.google.com/file/d/1FbxyMVTGEJIHhE_DWTjXNaArF51T_3cU/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1FbxyMVTGEJIHhE_DWTjXNaArF51T_3cU" />
             </Box>
             </Zoom>
+
+            <Zoom in timeout={2000}>
+            <Box className="flex-container" display="flex" flexDirection="row" alignItems="stretch" padding={1} style={{ justifyContent: 'space-around' }}>
+            <ImgMediaCard label="Problem on Torsion" viewUrl="https://drive.google.com/file/d/1mN9xk4QYcaCLt5hT_fJy1pZu8P_QClra/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1mN9xk4QYcaCLt5hT_fJy1pZu8P_QClra" />
+            <ImgMediaCard label="Problem on Bending" viewUrl="https://drive.google.com/file/d/1mMcxcRO7zVKm1jarhlB9iBTx4R6J3qmD/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=1mMcxcRO7zVKm1jarhlB9iBTx4R6J3qmD" />
+            <ImgMediaCard label="Problem on Mohr's Circle" viewUrl="https://drive.google.com/file/d/129jpZfE7UI9lzeaOexOJlhow-Phhrece/view?usp=sharing" downloadUrl="https://drive.google.com/uc?export=download&id=129jpZfE7UI9lzeaOexOJlhow-Phhrece" />
+            </Box>
+            </Zoom>
         </>
     )
 }
